@@ -1,0 +1,9 @@
+<div class='header'>
+	<h3>Todas las Rutas</h3>
+	<a href="#" id='create-route' class='boton'>nueva ruta</a>
+</div>
+<ul class='listado'>
+{{#each data}}
+  <li><a href="#" rel='{{id}}' class='ruta'>{{nombre_destino}} <span>{{disponibles}}</span></a></lli>
+{{/each}}
+</ul>

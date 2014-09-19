@@ -1,0 +1,19 @@
+{
+  "name": "moneytalk",
+  "version": "0.0.1",
+  "description": "Pago electronico de la manera correcta",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Javier Espinoza",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-bower": "^0.14.0",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

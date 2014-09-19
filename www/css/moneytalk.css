@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'moneytalk';
+  src: url('../font/Moneytalk/moneytalk.eot?65080463');
+  src: url('../font/Moneytalk/moneytalk.eot?65080463#iefix') format('embedded-opentype'),
+       url('../font/Moneytalk/moneytalk.woff?65080463') format('woff'),
+       url('../font/Moneytalk/moneytalk.ttf?65080463') format('truetype'),
+       url('../font/Moneytalk/moneytalk.svg?65080463#moneytalk') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'moneytalk';
+    src: url('../font/Moneytalk/moneytalk.svg?65080463#moneytalk') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "moneytalk";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-spin1:before { content: '\e800'; } /* '' */
+.icon-emo-happy:before { content: '\e801'; } /* '' */
+.icon-emo-laugh:before { content: '\e802'; } /* '' */
+.icon-emo-unhappy:before { content: '\e803'; } /* '' */
+.icon-emo-thumbsup:before { content: '\e804'; } /* '' */
+.icon-emo-surprised:before { content: '\e805'; } /* '' */
+.icon-credit-card:before { content: '\e806'; } /* '' */
+.icon-heart:before { content: '\e807'; } /* '' */
+.icon-heart-empty:before { content: '\e808'; } /* '' */
+.icon-search:before { content: '\e809'; } /* '' */
+.icon-left-open:before { content: '\e80a'; } /* '' */
+.icon-right-open:before { content: '\e80b'; } /* '' */
+.icon-share:before { content: '\e80c'; } /* '' */
+.icon-up-open:before { content: '\e80d'; } /* '' */
+.icon-down-open:before { content: '\e80e'; } /* '' */
+.icon-cancel-circled:before { content: '\e80f'; } /* '' */
+.icon-lock-open-alt:before { content: '\e810'; } /* '' */
+.icon-location:before { content: '\e811'; } /* '' */
+.icon-thumbs-up:before { content: '\e812'; } /* '' */
+.icon-thumbs-down:before { content: '\e813'; } /* '' */
+.icon-menu:before { content: '\e814'; } /* '' */
+.icon-user-add:before { content: '\e816'; } /* '' */
+.icon-dollar:before { content: '\e817'; } /* '' */
+.icon-money-1:before { content: '\e818'; } /* '' */
+.icon-calculator:before { content: '\e81a'; } /* '' */
+.icon-phone-1:before { content: '\e81b'; } /* '' */
+.icon-ok:before { content: '\e81c'; } /* '' */
+.icon-cog:before { content: '\e81d'; } /* '' */
+.icon-mail:before { content: '\e81e'; } /* '' */
+.icon-twitter-1:before { content: '\e81f'; } /* '' */
+.icon-trash:before { content: '\e820'; } /* '' */
+.icon-basket:before { content: '\e821'; } /* '' */
+.icon-bag:before { content: '\e822'; } /* '' */

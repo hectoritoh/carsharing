@@ -1,0 +1,27 @@
+{
+  "name": "moneytalk",
+  "version": "0.0.1",
+  "authors": [
+    "Jose Javier Espinoza <jecovier@gmail.com>"
+  ],
+  "description": "Pago electronico de la manera correcta",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "mudcube-eventjs": "*",
+    "zepto": "~1.1.4",
+    "handlebars": "~2.0.0",
+    "requirejs-text": "~2.0.12"
+  }
+}
