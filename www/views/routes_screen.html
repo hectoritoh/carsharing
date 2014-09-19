@@ -1,9 +1,11 @@
 <div class='header'>
 	<h3>Todas las Rutas</h3>
-	<a href="#" id='create-route' class='boton'>nueva ruta</a>
+	<a href="#" id='create-route' class='boton icon-user-add' style="color:white; margin-top: 20px;display:block;text-decoration: none;" >Nueva ruta</a>
 </div>
+<br>
+<br>
 <ul class='listado'>
 {{#each data}}
-  <li><a href="#" rel='{{id}}' class='ruta'>{{nombre_destino}} <span>{{disponibles}}</span></a></lli>
+  <li><a href="#" rel='{{id}}' class='ruta'>{{nombre_destino}} <span>{{disponibles}}</span></a><i  class="icon-right-open" style="color:white; float:right;" ></i></lli>
 {{/each}}
 </ul>

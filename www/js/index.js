@@ -13,6 +13,8 @@ define(['route', 'view'], function(Route,View){
 		App.prototype.initialize = function() {
 
 			var _this = this;
+			// this.view.render('my_routes_screen',{},function() { _this.inithome(_this); });
+			// this.view.render('routes_screen',{},function() { _this.inithome(_this); });
 			this.view.render('home_screen',{},function() { _this.inithome(_this); });
 
 		}
